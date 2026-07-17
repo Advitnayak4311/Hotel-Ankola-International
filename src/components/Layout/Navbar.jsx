@@ -63,12 +63,12 @@ export default function Navbar() {
             </Link>
 
             {/* ── Desktop Nav Links ── */}
-            <div className="hidden xl:flex items-center gap-0.5">
+            <div className="hidden lg:flex items-center gap-0.5">
               {navLinks.map((link) => (
                 <Link
                   key={link.path}
                   to={link.path}
-                  className={`relative px-2.5 py-5 text-[11px] font-bold tracking-[0.12em] uppercase transition-all duration-200 group ${
+                  className={`relative px-1.5 xl:px-2.5 py-5 text-[10px] xl:text-[11px] font-bold tracking-[0.08em] xl:tracking-[0.12em] uppercase transition-all duration-200 group ${
                     isActive(link.path)
                       ? 'text-[#D4AF37]'
                       : 'text-white/80 hover:text-white'
@@ -77,7 +77,7 @@ export default function Navbar() {
                   {link.label}
                   {/* Active underline */}
                   <span
-                    className={`absolute bottom-3 left-2.5 right-2.5 h-[2px] rounded-full bg-[#D4AF37] transition-all duration-300 ${
+                    className={`absolute bottom-3 left-1.5 xl:left-2.5 right-1.5 xl:right-2.5 h-[2px] rounded-full bg-[#D4AF37] transition-all duration-300 ${
                       isActive(link.path)
                         ? 'opacity-100 scale-x-100'
                         : 'opacity-0 scale-x-0 group-hover:opacity-60 group-hover:scale-x-100'
