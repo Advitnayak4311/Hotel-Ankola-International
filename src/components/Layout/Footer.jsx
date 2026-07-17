@@ -107,6 +107,21 @@ export default function Footer() {
               <li><Link to="/gallery" className="hover:text-gold transition-colors duration-200">Photo & Video Gallery</Link></li>
               <li><Link to="/attractions" className="hover:text-gold transition-colors duration-200">Nearby Beaches & Caves</Link></li>
             </ul>
+            <h4 className="text-white text-xs font-sans uppercase tracking-[0.15em] font-semibold mt-6 mb-3">
+              Sister Properties
+            </h4>
+            <ul className="space-y-2 text-xs">
+              <li>
+                <a href="https://mantristaygokarna.com/" target="_blank" rel="noreferrer" className="hover:text-[#D4AF37] transition-colors duration-200">
+                  Mantri Stay, Gokarna
+                </a>
+              </li>
+              <li>
+                <a href="https://www.google.com/travel/search?q=sahana%20palace%20ankola&g2lb=4965990%2C72471280%2C72560029%2C72573224%2C72647020%2C72686036%2C72803964%2C72882230%2C73064764%2C73249150%2C121529350%2C121738283%2C121762713&hl=en-IN&gl=in&ssta=1&ts=CAEaSQopEicyJTB4M2JiZTg2MDhkMjNkNjU5NToweDY0ZTI1MzdkMzI4OGE2ZGUSHBIUCgcI6g8QBxgUEgcI6g8QBxgVGAEyBAgAEAA&qs=CAEyJ0Noa0kzczJpbE5QdmxQRmtHZzB2Wnk4eE1XZHpOWGRvY1hOekVBRTgCQgkJ3qaIMn1T4mRCCQnepogyfVPiZA&ap=KigKEgms-d44QFMtQBGDuOcDnZNSQBISCXB0umEyVC1AEYO4Jwuwk1JAMAA&ictx=111&ved=0CAAQ5JsGahgKEwio8ezEvdmVAxUAAAAAHQAAAAAQwgE" target="_blank" rel="noreferrer" className="hover:text-[#D4AF37] transition-colors duration-200">
+                  Sahana Palace, Ankola
+                </a>
+              </li>
+            </ul>
           </div>
 
           {/* Column 3: Contact Details */}
